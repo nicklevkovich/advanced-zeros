@@ -40,6 +40,6 @@ for (i=0; i<del.length; i++)
     step.push(maxPowerOf(del[i],number)/del_count[i]);
   }
  step.sort(function(a,b){return a-b});
- return(step[0]);
+ return(Math.floor(step[0]));
 
 }
